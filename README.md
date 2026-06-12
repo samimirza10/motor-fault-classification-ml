@@ -1,2 +1,83 @@
-# motor-fault-classification-ml
-Machine learning-based condition monitoring of a three-phase induction motor using current signal analysis and FFT-based frequency domain feature extraction for fault detection.
+# Motor Fault Classification using Machine Learning
+
+## 📌 Project Overview
+This project implements a machine learning-based condition monitoring system for a three-phase induction motor using current signal analysis and FFT-based feature extraction.
+
+It detects motor faults using both time-domain and frequency-domain signal processing techniques.
+
+---
+
+## ⚙️ Motor Specifications
+- Three-phase induction motor  
+- Sampling rate: 10,000 Hz  
+- Current signals from Phase A, B, and C  
+
+---
+
+## 📊 Dataset Description
+The dataset contains 9 classes:
+
+- Healthy  
+- BRB100, BRB300  
+- BFI100, BFI200, BFI300  
+- BFO100, BFO200, BFO300  
+
+Each CSV file contains:
+- Rows → time samples  
+- Columns → 3-phase current data
+
+---
+
+## 🧠 Feature Extraction
+
+### Time Domain
+- Mean, RMS, standard deviation
+- Signal amplitude behavior
+
+### Frequency Domain (FFT)
+Focused frequency range: **40–70 Hz**
+
+Extracted features:
+- Peak magnitude
+- Mean magnitude
+- Supply frequency (50 Hz) magnitude
+- Sideband asymmetry
+- Bearing fault frequency bands (100–400 Hz)
+
+---
+
+## 🤖 Machine Learning Models Used
+- Naive Bayes  
+- Decision Tree  
+- Linear Discriminant Analysis  
+- KNN  
+- Random Forest  
+- AdaBoost  
+- Quadratic Discriminant Analysis  
+
+---
+
+## 🏆 Results
+- Best models: **KNN & Random Forest**
+- Accuracy achieved: ~99%
+- Random Forest showed best stability across all fault classes
+
+---
+
+## 🔬 Key Insight
+Fault detection is most effective in:
+- 40–70 Hz range (supply frequency region)
+- 100–400 Hz range (bearing fault harmonics)
+
+---
+
+## 🚀 Future Improvements
+- CNN / LSTM deep learning models  
+- Multi-sensor fusion (vibration + thermal + current)  
+- Edge AI deployment  
+- Explainable AI (SHAP / LIME)
+
+---
+
+## 👨‍💻 Author
+Electrical Engineering student working on AI-based industrial fault diagnosis systems.
