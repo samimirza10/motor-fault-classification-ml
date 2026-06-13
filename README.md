@@ -75,7 +75,10 @@ Our comparative analysis shows that **Random Forest** and **KNN** provide the hi
 **Feature Importance Plot** ![Feature Importance](figures/feature_importance_plot.png)
 
 ### Key Achievements
-![Project Conclusions](figures/major_achievements.png)
+- **High Accuracy:** Successfully developed an ML-based motor fault classifier with 99.8% accuracy.
+- **Frequency Optimization:** Identified the optimal frequency range (40-70 Hz) for reliable bearing fault detection.
+- **Algorithm Performance:** Random Forest and KNN proved to be the most effective algorithms among the 7 tested.
+- **Predictive Maintenance:** Enables non-invasive, real-time fault detection using only current sensors, significantly reducing industrial maintenance costs.
 
 ---
 
