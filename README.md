@@ -63,17 +63,19 @@ We visualize the current signals to identify distinct patterns between states:
 Our comparative analysis shows that **Random Forest** and **KNN** provide the highest classification accuracy, achieving **99.95%**.
 
 ### Visual Results
-**Confusion Matrix** ![Confusion Matrix](figures/confusion-matrix.png)
+**Confusion Matrix** ![Confusion Matrix](figures/Confusion_Matrix_Analysis.png)
 
-**FFT Frequency Analysis** ![FFT Analysis](figures/fft-analysis.png)
+**FFT Frequency Analysis** ![FFT Analysis](figures/FFT_Analysis.png)
 
 ### Performance Metrics
-**Model Accuracy Comparison** ![Model Accuracy](figures/accuracy-comparison.png)
+**Model Accuracy Comparison** ![Model Accuracy](figures/accuracy_comparison.png)
 
-**Detailed Classification Metrics** ![Classification Metrics](figures/model-performance-metrics.png)
+**Detailed Classification Metrics** ![Classification Metrics](figures/model_performance_metrics.png)
+
+**Feature Importance Plot** ![Feature Importance](figures/feature_importance_plot.png)
 
 ### Key Achievements
-![Project Conclusions](figures/major-achievements.png)
+![Project Conclusions](figures/major_achievements.png)
 
 ---
 
