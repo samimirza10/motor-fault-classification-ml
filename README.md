@@ -63,6 +63,13 @@ Extracted features:
 - Random Forest showed best stability across all fault classes
 
 ---
+### Visual Results
+
+**Confusion Matrix**
+![Confusion Matrix](figures/Confusion_Matrix_Analysis.png)
+
+**FFT Frequency Analysis**
+![FFT Analysis](figures/FFT_Analysis.png)
 
 ## 🔬 Key Insight
 Fault detection is most effective in:
