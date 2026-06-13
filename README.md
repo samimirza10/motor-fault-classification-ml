@@ -8,23 +8,31 @@ It detects motor faults using both time-domain and frequency-domain signal proce
 ---
 
 ## ⚙️ Motor Specifications
-- Three-phase induction motor  
-- Sampling rate: 10,000 Hz  
-- Current signals from Phase A, B, and C  
+- **Type:** Three-phase induction motor  
+- **Sampling rate:** 10,000 Hz  
+- **Data:** Current signals from Phase A, B, and C  
 
 ---
 
 ## 📊 Dataset Description
 The dataset contains 9 classes:
-
 - Healthy  
 - BRB100, BRB300  
 - BFI100, BFI200, BFI300  
 - BFO100, BFO200, BFO300  
 
-Each CSV file contains:
-- Rows → time samples  
-- Columns → 3-phase current data
+*Each CSV file contains time samples (rows) and 3-phase current data (columns).*
+
+---
+
+## 🔍 Signal Analysis
+We visualize the current signals to identify distinct patterns between states:
+
+**Healthy Motor Signals** ![Healthy Signal](figures/healthy-signal.png)
+
+**Broken Rotor Bar (BRB) Fault Signal** ![Faulty Signal](figures/brb-fault-signal.png)
+
+**Direct Comparison: Healthy vs. Defect** ![Comparison](figures/comparison-plot.png)
 
 ---
 
@@ -35,9 +43,9 @@ Each CSV file contains:
 - Signal amplitude behavior
 
 ### Frequency Domain (FFT)
-Focused frequency range: **40–70 Hz**
+**Focused frequency range:** 40–70 Hz
 
-Extracted features:
+**Extracted features:**
 - Peak magnitude
 - Mean magnitude
 - Supply frequency (50 Hz) magnitude
@@ -47,49 +55,22 @@ Extracted features:
 ---
 
 ## 🤖 Machine Learning Models Used
-- Naive Bayes  
-- Decision Tree  
-- Linear Discriminant Analysis  
-- KNN  
-- Random Forest  
-- AdaBoost  
-- Quadratic Discriminant Analysis  
+- Naive Bayes, Decision Tree, Linear Discriminant Analysis, KNN, Random Forest, AdaBoost, Quadratic Discriminant Analysis.
 
 ---
-## 🔍 Signal Analysis
-We visualize the current signals to identify distinct patterns between states:
-
-**Healthy Motor Signals**
-![Healthy Signal](figures/time_domain_analysis2.png)
-
-
-
-**Broken Rotor Bar (BRB) Fault Signal**
-![Faulty Signal](figures/time_domain_analysis1.png)
-
-
-
-**Direct Comparison: Healthy vs. Defect**
-![Comparison](figures/healthy_vs_defective.png)
-
-
 
 ## 🏆 Results
 Our comparative analysis shows that **Random Forest** and **KNN** provide the highest classification accuracy, achieving **99.95%**.
 
 ### Visual Results
-**Confusion Matrix**
-![Confusion Matrix](figures/confusion-matrix.png)
+**Confusion Matrix** ![Confusion Matrix](figures/confusion-matrix.png)
 
-**FFT Frequency Analysis**
-![FFT Analysis](figures/fft-analysis.png)
+**FFT Frequency Analysis** ![FFT Analysis](figures/fft-analysis.png)
 
 ### Performance Metrics
-**Model Accuracy Comparison**
-![Model Accuracy](figures/accuracy-comparison.png)
+**Model Accuracy Comparison** ![Model Accuracy](figures/accuracy-comparison.png)
 
-**Detailed Classification Metrics**
-![Classification Metrics](figures/model-performance-metrics.png)
+**Detailed Classification Metrics** ![Classification Metrics](figures/model-performance-metrics.png)
 
 ### Key Achievements
 ![Project Conclusions](figures/major-achievements.png)
