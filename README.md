@@ -28,11 +28,11 @@ The dataset contains 9 classes:
 ## 🔍 Signal Analysis
 We visualize the current signals to identify distinct patterns between states:
 
-**Healthy Motor Signals** ![Healthy Signal](figures/healthy-signal.png)
+**Healthy Motor Signals** ![Healthy Signal](figures/time_domain_analysis2.png)
 
-**Broken Rotor Bar (BRB) Fault Signal** ![Faulty Signal](figures/brb-fault-signal.png)
+**Broken Rotor Bar (BRB) Fault Signal** ![Faulty Signal](figures/time_domain_analysis1.png)
 
-**Direct Comparison: Healthy vs. Defect** ![Comparison](figures/comparison-plot.png)
+**Direct Comparison: Healthy vs. Defect** ![Comparison](figures/healthy_vs_defective.png)
 
 ---
 
