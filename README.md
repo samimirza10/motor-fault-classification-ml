@@ -58,18 +58,26 @@ Extracted features:
 ---
 
 ## 🏆 Results
-- Best models: **KNN & Random Forest**
-- Accuracy achieved: ~99%
-- Random Forest showed best stability across all fault classes
+Our comparative analysis shows that **Random Forest** and **KNN** provide the highest classification accuracy, achieving **99.95%**.
 
----
 ### Visual Results
-
 **Confusion Matrix**
-![Confusion Matrix](figures/Confusion_Matrix_Analysis.png)
+![Confusion Matrix](figures/confusion-matrix.png)
 
 **FFT Frequency Analysis**
-![FFT Analysis](figures/FFT_Analysis.png)
+![FFT Analysis](figures/fft-analysis.png)
+
+### Performance Metrics
+**Model Accuracy Comparison**
+![Model Accuracy](figures/accuracy-comparison.png)
+
+**Detailed Classification Metrics**
+![Classification Metrics](figures/model-performance-metrics.png)
+
+### Key Achievements
+![Project Conclusions](figures/major-achievements.png)
+
+---
 
 ## 🔬 Key Insight
 Fault detection is most effective in:
