@@ -8,18 +8,18 @@ It detects motor faults using both time-domain and frequency-domain signal proce
 ---
 
 ## ⚙️ Motor Specifications
-- **Type:** Three-phase induction motor  
-- **Sampling rate:** 10,000 Hz  
-- **Data:** Current signals from Phase A, B, and C  
+- **Type:** Three-phase induction motor
+- **Sampling rate:** 10,000 Hz
+- **Data:** Current signals from Phase A, B, and C
 
 ---
 
 ## 📊 Dataset Description
 The dataset contains 9 classes:
-- Healthy  
-- BRB100, BRB300  
-- BFI100, BFI200, BFI300  
-- BFO100, BFO200, BFO300  
+- Healthy
+- BRB100, BRB300
+- BFI100, BFI200, BFI300
+- BFO100, BFO200, BFO300
 
 *Each CSV file contains time samples (rows) and 3-phase current data (columns).*
 
@@ -28,11 +28,14 @@ The dataset contains 9 classes:
 ## 🔍 Signal Analysis
 We visualize the current signals to identify distinct patterns between states:
 
-**Healthy Motor Signals** ![Healthy Signal](figures/time_domain_analysis2.png)
+**Healthy Motor Signals**
+![Healthy Motor Signals](figures/time_domain_analysis2.png)
 
-**Broken Rotor Bar (BRB) Fault Signal** ![Faulty Signal](figures/time_domain_analysis1.png)
+**Broken Rotor Bar (BRB) Fault Signal**
+![Broken Rotor Bar Fault Signal](figures/time_domain_analysis1.png)
 
-**Direct Comparison: Healthy vs. Defect** ![Comparison](figures/healthy_vs_defective.png)
+**Direct Comparison: Healthy vs. Defect**
+![Direct Comparison](figures/healthy_vs_defective.png)
 
 ---
 
@@ -63,16 +66,21 @@ We visualize the current signals to identify distinct patterns between states:
 Our comparative analysis shows that **Random Forest** and **KNN** provide the highest classification accuracy, achieving **99.95%**.
 
 ### Visual Results
-**Confusion Matrix** ![Confusion Matrix](figures/Confusion_Matrix_Analysis.png)
+**Confusion Matrix**
+![Confusion Matrix](figures/Confusion_Matrix_Analysis.png)
 
-**FFT Frequency Analysis** ![FFT Analysis](figures/FFT_Analysis.png)
+**FFT Frequency Analysis**
+![FFT Analysis](figures/FFT_Analysis.png)
 
 ### Performance Metrics
-**Model Accuracy Comparison** ![Model Accuracy](figures/accuracy_comparison.png)
+**Model Accuracy Comparison**
+![Model Accuracy](figures/accuracy_comparison.png)
 
-**Detailed Classification Metrics** ![Classification Metrics](figures/model_performance_metrics.png)
+**Detailed Classification Metrics**
+![Detailed Classification Metrics](figures/model_performance_metrics.png)
 
-**Feature Importance Plot** ![Feature Importance](figures/feature_importance_plot.png)
+**Feature Importance Plot**
+![Feature Importance](figures/feature_importance_plot.png)
 
 ### Key Achievements
 - **High Accuracy:** Successfully developed an ML-based motor fault classifier with 99.8% accuracy.
@@ -90,9 +98,9 @@ Fault detection is most effective in:
 ---
 
 ## 🚀 Future Improvements
-- CNN / LSTM deep learning models  
-- Multi-sensor fusion (vibration + thermal + current)  
-- Edge AI deployment  
+- CNN / LSTM deep learning models
+- Multi-sensor fusion (vibration + thermal + current)
+- Edge AI deployment
 - Explainable AI (SHAP / LIME)
 
 ---
