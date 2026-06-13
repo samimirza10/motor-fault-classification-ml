@@ -62,11 +62,17 @@ We visualize the current signals to identify distinct patterns between states:
 **Healthy Motor Signals**
 ![Healthy Signal](figures/time_domain_analysis2.png)
 
+
+
 **Broken Rotor Bar (BRB) Fault Signal**
 ![Faulty Signal](figures/time_domain_analysis1.png)
 
+
+
 **Direct Comparison: Healthy vs. Defect**
 ![Comparison](figures/healthy_vs_defective.png)
+
+
 
 ## 🏆 Results
 Our comparative analysis shows that **Random Forest** and **KNN** provide the highest classification accuracy, achieving **99.95%**.
